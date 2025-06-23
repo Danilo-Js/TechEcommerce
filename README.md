@@ -118,4 +118,4 @@ Ideal para quem deseja aprender os fundamentos de um app de loja virtual com Rea
 
 ## 📄 Licença
 
-Projeto desenvolvido apenas para fins educacionais.
+Projeto desenvolvido apenas para fins educacionais. Licença MIT.
