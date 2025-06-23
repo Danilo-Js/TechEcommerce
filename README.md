@@ -1,7 +1,7 @@
 
 # 📱 TechEcommerce
 
-Um aplicativo de e-commerce simples desenvolvido com **React Native**, utilizando a biblioteca **react-native-ecommerce-components**.
+Um aplicativo de e-commerce simples desenvolvido com **React Native**, utilizando a biblioteca [react-native-ecommerce-components](https://github.com/Danilo-Js/react-native-ecommerce-components).
 Esse aplicativo foi feito com o objetivo de gerar uma comprovação concreta da usabilidade dos componentes da biblioteca citada.
 
 <p>
