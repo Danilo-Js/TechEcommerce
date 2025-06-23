@@ -4,6 +4,12 @@
 Um aplicativo de e-commerce simples desenvolvido com **React Native**, utilizando a biblioteca **react-native-ecommerce-components**.
 Esse aplicativo foi feito com o objetivo de gerar uma comprovação concreta da usabilidade dos componentes da biblioteca citada.
 
+<p>
+  <img src="images/demonstration.gif" alt="Demonstração do App" width="250" />
+  <img src="images/1 - Home.png" alt="Demonstração do App" width="250" />
+  <img src="images/2- Categorias.png" alt="Demonstração do App" width="250" />
+</p>
+
 ---
 
 ## 📌 Visão Geral
