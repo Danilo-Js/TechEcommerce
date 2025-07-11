@@ -104,6 +104,20 @@ O projeto usa **mock models locais** para categorias, produtos e avaliações (a
 
 ---
 
+## 📦 Download do APK
+
+Você pode baixar o APK do aplicativo diretamente através deste link:
+
+[@ Download APK - Google Drive](https://drive.google.com/drive/folders/1ZJX5Zb8Y3zQHsaI1Ycm8ZpcD58lYT2Wr?usp=sharing)
+
+> **Atenção:** Para instalar o aplicativo, é necessário permitir que o seu dispositivo Android aceite instalações de fontes desconhecidas (aplicativos fora da Play Store). Normalmente, essa opção pode ser encontrada em:
+>
+> **Configurações** > **Segurança** > **Fontes desconhecidas** (ou **Instalar apps desconhecidos**).
+>
+> Ative essa opção apenas para o app de arquivos ou navegador utilizado para baixar o APK. Após a instalação, recomenda-se desativar novamente por segurança.
+
+---
+
 ## 📋 Dependências principais do projeto
 
 - `react-native`
