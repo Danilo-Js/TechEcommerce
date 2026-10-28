@@ -1,141 +1,56 @@
+![TechEcommerce](docs/assets/capa.svg)
 
-# 📱 TechEcommerce
+# TechEcommerce
 
-Um aplicativo de e-commerce simples desenvolvido com **React Native**, utilizando a biblioteca [react-native-ecommerce-components](https://github.com/Danilo-Js/react-native-ecommerce-components).
-Esse aplicativo foi feito com o objetivo de gerar uma comprovação concreta da usabilidade dos componentes da biblioteca citada.
+Aplicativo demonstrativo que desenvolvi para exercitar a biblioteca react-native-ecommerce-components em um fluxo de catálogo, carrinho e acompanhamento de pedido. O projeto conecta componentes reutilizáveis, navegação e estado em React Native.
 
-<p>
-  <img src="images/demonstration.gif" alt="Demonstração do App" width="250" />
-  <img src="images/1 - Home.png" alt="Demonstração do App" width="250" />
-  <img src="images/2- Categorias.png" alt="Demonstração do App" width="250" />
-</p>
+**Aplicação demonstrativa do TCC · UFES**
 
----
+React Native 0.78 · React 19 · TypeScript · Context API
 
-## 📌 Visão Geral
+[English](README.en.md) · [Meu percurso em Ciência da Computação](https://github.com/Danilo-Js/My-Computer-Science-Course)
 
-O **TechEcommerce** é um projeto de exemplo focado em demonstrar a implementação de um fluxo básico de comércio eletrônico em dispositivos móveis. Ele inclui funcionalidades essenciais como:
+<p align="center"><img src="images/1%20-%20Home.png" alt="Demonstração original de TechEcommerce" width="260" /></p>
 
-- 📂 Navegação por categorias
-- 🛍️ Listagem de produtos
-- 🔎 Busca de produtos
-- 🛒 Carrinho de compras
-- 💳 Pagamento
-- ✅ Confirmação de pedido
-- 🚚 Rastreamento de entrega
-- ⭐ Avaliações de produtos
+## O que este projeto explora
 
-Todo o projeto foi desenvolvido com foco em **componentização**, **Context API** para gerenciamento de estado e reutilização de componentes da biblioteca **react-native-ecommerce-components**.
+- Navegação entre catálogo, categorias, carrinho e telas de pedido.
+- Estado compartilhado com Context API e modelos de dados simulados.
+- Integração de uma biblioteca própria em um aplicativo consumidor.
 
----
+## Como explorar
 
-## 🚀 Instalação
+| Caminho | Conteúdo |
+|---|---|
+| [Telas](src/screens) | `src/screens` |
+| [Estado e contextos](src/context) | `src/context` |
+| [Dados demonstrativos](src/models) | `src/models` |
+| [Navegação](src/navigation) | `src/navigation` |
+| [Capturas e demonstração](images) | `images` |
 
-1. **Clone o repositório:**
+## Executar ou consultar
 
-```bash
-git clone https://github.com/seu-usuario/TechEcommerce.git
-```
-
-2. **Instale as dependências:**
+Pré-requisitos: Node 18 ou superior e ambiente React Native/Android ou iOS compatível com as versões do [package.json](package.json).
 
 ```bash
-cd TechEcommerce
 npm install
+npm start
 ```
 
-3. **Execute o projeto no Android:**
+Em outro terminal, use `npm run android` ou `npm run ios` com o ambiente nativo preparado. As configurações de Android/iOS continuam nos respectivos diretórios do projeto.
 
-```bash
-npx react-native run-android
-```
+## Conceitos e contexto
 
-Ou no iOS:
+Os produtos, avaliações, pedidos e fluxos de pagamento são demonstrativos. A presença de uma tela de confirmação não representa venda, cobrança real ou integração comercial de pagamento.
 
-```bash
-npx react-native run-ios
-```
+## Autoria e procedência
 
-> **Observação:** É necessário ter o ambiente de desenvolvimento React Native já configurado.
+Danilo José Lima de Oliveira. A biblioteca usada pelo aplicativo está no repositório react-native-ecommerce-components.
 
----
+## Condições de uso
 
-## 🗂️ Estrutura de Pastas
+Este acervo não contém um arquivo LICENSE na raiz. Preserve os créditos de origem e confira as condições dos materiais antes de reutilizá-los.
 
-```plaintext
-src/
-├── context/              # Context API: Carrinho, Produtos, Categorias, Avaliações
-├── models/               # Modelos simulados de dados (categorias, produtos, avaliações)
-├── navigation/           # Configuração das rotas com react-navigation
-├── screens/              # Telas principais: Home, Categorias, Carrinho, etc.
-```
+## Projetos relacionados
 
----
-
-## 🧱 Tecnologias Utilizadas
-
-- **React Native**
-- **TypeScript**
-- **React Navigation**
-- **Context API (React)**
-- **react-native-ecommerce-components**
-
----
-
-## 📲 Principais Telas e Funcionalidades
-
-| Tela                       | Descrição                              |
-|----------------------------|----------------------------------------|
-| Home                       | Busca de produtos e acesso às categorias |
-| Categorias                 | Exibição das categorias disponíveis    |
-| Lista de Produtos          | Listagem dos produtos por categoria    |
-| Detalhes do Produto        | Informações detalhadas e botão de compra |
-| Carrinho de Compras        | Revisão dos itens antes de pagar       |
-| Pagamento                  | Tela de checkout e captura de pagamento |
-| Confirmação de Pedido      | Mensagem de agradecimento e resumo do pedido |
-| Rastreamento do Pedido     | Acompanhamento do status de entrega    |
-| Avaliações do Produto      | Listagem e envio de avaliações dos clientes |
-
----
-
-## 📡 Mock de Dados
-
-O projeto usa **mock models locais** para categorias, produtos e avaliações (arquivos dentro de `src/models`), facilitando testes sem necessidade de backend.
-
----
-
-## 📦 Download do APK
-
-Você pode baixar o APK do aplicativo diretamente através deste link:
-
-[@ Download APK - Google Drive](https://drive.google.com/drive/folders/1ZJX5Zb8Y3zQHsaI1Ycm8ZpcD58lYT2Wr?usp=sharing)
-
-> **Atenção:** Para instalar o aplicativo, é necessário permitir que o seu dispositivo Android aceite instalações de fontes desconhecidas (aplicativos fora da Play Store). Normalmente, essa opção pode ser encontrada em:
->
-> **Configurações** > **Segurança** > **Fontes desconhecidas** (ou **Instalar apps desconhecidos**).
->
-> Ative essa opção apenas para o app de arquivos ou navegador utilizado para baixar o APK. Após a instalação, recomenda-se desativar novamente por segurança.
-
----
-
-## 📋 Dependências principais do projeto
-
-- `react-native`
-- `@react-navigation/native`
-- `react-native-ecommerce-components`
-- `react-native-vector-icons`
-- `typescript`
-
----
-
-## ✅ Conclusão
-
-Este projeto demonstra como criar um **fluxo de compra funcional** utilizando **boas práticas de componentização, gerenciamento de estado com Context API** e o uso de **componentes prontos de uma biblioteca de e-commerce**.
-
-Ideal para quem deseja aprender os fundamentos de um app de loja virtual com React Native!
-
----
-
-## 📄 Licença
-
-Projeto desenvolvido apenas para fins educacionais. Licença MIT.
+- [react-native-ecommerce-components](https://github.com/Danilo-Js/react-native-ecommerce-components)
